@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">tareaIP</string>
+
+    <string name="app_name">Calculadora IP</string>
+    <string name="txt1">IP</string>
+    <string name="txt2">/</string>
+    <string name="txt3">Máscara</string>
+    <string name="txt4">NetID</string>
+    <string name="txt5">Broadcast</string>
+    <string name="txt6">Cantidad \n de Host</string>
+    <string name="txt7">Parte de Red</string>
+    <string name="txt8">Parte de Host</string>
 </resources>
