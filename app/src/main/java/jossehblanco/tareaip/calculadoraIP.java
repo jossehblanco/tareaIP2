@@ -60,7 +60,6 @@ public class calculadoraIP {
                 netId += (ipByteArray[i]&maskByteArray[i]);
             }
         }
-
         return netId;
     }
 }
