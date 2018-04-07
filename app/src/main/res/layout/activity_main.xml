@@ -43,6 +43,7 @@
         android:layout_alignBaseline="@id/edit1"
         android:layout_toRightOf="@id/txt2"
         android:layout_margin="8dp"
+        android:inputType="number"
         />
 
     <TextView
@@ -71,7 +72,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:layout_below="@id/txt4"
-        android:clickable="false"
+        android:focusable="false"
+        android:enabled="false"
+        android:cursorVisible="false"
         />
 
     <TextView
@@ -90,7 +93,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:layout_below="@id/txt5"
-        android:clickable="false"
+        android:focusable="false"
+        android:enabled="false"
+        android:cursorVisible="false"
         />
 
     <TextView
@@ -120,7 +125,10 @@
         android:layout_margin="8dp"
         android:layout_below="@id/txt6"
         android:ems="5"
-        android:clickable="false"
+        android:focusable="false"
+        android:enabled="false"
+        android:cursorVisible="false"
+
         />
     <EditText
         android:id="@+id/edit6"
@@ -131,7 +139,9 @@
         android:layout_toRightOf="@id/edit5"
         android:layout_alignStart="@id/edit2"
         android:ems="5"
-        android:clickable="false"
+        android:focusable="false"
+        android:enabled="false"
+        android:cursorVisible="false"
         />
 
     <TextView
@@ -149,24 +159,28 @@
         android:layout_margin="8dp"
         android:layout_below="@id/txt8"
         android:ems="5"
-        android:clickable="false"
+        android:focusable="false"
+        android:enabled="false"
+        android:cursorVisible="false"
         />
+
     <Button
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn1"
-        android:text="@string/btn1"
         android:layout_alignStart="@id/edit6"
         android:layout_below="@id/edit6"
         android:layout_margin="8dp"
-        />
+        android:onClick="onClick1"
+        android:text="@string/btn1" />
+
     <Button
+        android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn2"
-        android:text="@string/btn2"
-        android:layout_toLeftOf="@id/btn1"
         android:layout_below="@id/edit6"
         android:layout_margin="8dp"
-        />
+        android:layout_toLeftOf="@id/btn1"
+        android:onClick="onClick2"
+        android:text="@string/btn2" />
 </RelativeLayout>
