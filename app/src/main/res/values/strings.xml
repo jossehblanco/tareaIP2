@@ -9,4 +9,6 @@
     <string name="txt6">Cantidad \n de Host</string>
     <string name="txt7">Parte de Red</string>
     <string name="txt8">Parte de Host</string>
+    <string name="btn1">Calcular</string>
+    <string name="btn2">Reset</string>
 </resources>

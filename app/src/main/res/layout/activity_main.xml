@@ -151,4 +151,22 @@
         android:ems="5"
         android:clickable="false"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="@string/btn1"
+        android:layout_alignStart="@id/edit6"
+        android:layout_below="@id/edit6"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="@string/btn2"
+        android:layout_toLeftOf="@id/btn1"
+        android:layout_below="@id/edit6"
+        android:layout_margin="8dp"
+        />
 </RelativeLayout>
